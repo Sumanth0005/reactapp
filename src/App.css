@@ -1,0 +1,192 @@
+body {
+  margin: 0px !important;
+}
+.layout-container {
+  height: 100vh;
+}
+.container-fluid {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  display: flex;
+}
+.main-container {
+  height: calc(100vh - 100px);
+  width: calc(100vw - 230px);
+  overflow-y: auto;
+}
+.container {
+  min-height: calc(100vh - 100px);
+  width: calc(100vw - 250px);
+}
+
+.head {
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid lightcyan;
+  display: grid;
+  grid-template-columns: 200px auto 100px;
+  gap: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  height: 80px;
+}
+
+.header {
+  overflow: hidden;
+}
+.logotl {
+  justify-content: end;
+  align-items: center;
+  width: 150px;
+  height: 80px;
+  padding-left: 15px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #b794f6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.list {
+  display: flex;
+  font-size: 1.6rem;
+  gap: 15px;
+  color: black;
+  justify-content: end;
+  align-items: center;
+  height: 80px;
+}
+/*hover-underline Starts*/
+.animate {
+  position: relative;
+  display: inline-block;
+}
+.animate::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /*Adjust underline position*/
+  width: 0;
+  height: 2px; /* Thickness of underline */
+  background-color: orange; /* Change underline color */
+  transition: width 0.3s ease-in-out;
+}
+.animate:hover::after {
+  width: 100%;
+}
+
+.footer {
+  background: #e0e0e0;
+  height: auto;
+  text-align: center;
+  width: 100%;
+  box-shadow: 4px 4px 40px 20px rgba(0, 0.2, 0, 0);
+}
+
+.sidebar {
+  overflow: scroll;
+  width: 230px;
+  height: calc(100dvh - 100px);
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px rgba(0, 0.2, 0, 0);
+}
+.sidebarinside {
+  padding-left: 20px;
+}
+.f1 {
+  display: grid;
+  grid-template-columns: 200px auto;
+  gap: 15px;
+  font-size: 2.6rem;
+}
+.f1img {
+  width: 120px;
+  height: 60px;
+  padding-left: 1.6rem;
+}
+.f1list {
+  font-weight: bold;
+  display: flex;
+  font-size: 0.7rem;
+  align-items: center;
+  gap: 120px;
+  padding-right: 2.6rem;
+  padding-left: 1rem;
+  justify-content: start;
+}
+.f2 {
+  padding: 3px;
+  text-align: center;
+  padding: 0px 50px;
+  font-size: 1rem;
+}
+.f3 {
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+}
+.f4 ul {
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px;
+}
+.card {
+  background-color: lightcyan;
+  border: 2px solid black;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid black;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card-form {
+  border: 1px, solid, black;
+  padding: 1rem;
+}
+.card-form input {
+  padding: 0.2rem;
+  margin: 0.5rem;
+  justify-content: center;
+}
+.card-form label {
+  margin: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+}
+.search-bar {
+  margin-right: 26rem;
+  width: 30%; /* Adjust width as needed */
+  padding: 8px; /* Adds spacing inside the input */
+  border-radius: 25px; /* Rounds the corners */
+  border: 1px solid black; /* Adds a black border */
+  outline: none; /* Removes the blue outline on focus */
+  font-size: 16px; /* Adjusts text size */
+  /* transition: border-color 0.3s ease-in-out; */
+}
+.search-bar:hover {
+  border-color: gray; /* Highlights input when focused */
+  box-shadow: 0 0 5px grey; /* Adds a subtle glow */
+}
+
+ 

@@ -1,0 +1,116 @@
+.A-components h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.A-services h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.A-directives h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.A-modules h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.A-routing h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.A-components {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.A-services {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.A-directives {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.A-modules {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.A-routing {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.A-forms {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+/* underline */
+
+.nodeicon {
+  display: flex;
+}
+.nodelist {
+  padding-left: 1rem;
+  text-decoration: underline;
+}
+
+.htmlicon {
+  display: flex;
+}
+.htmllist {
+  padding-left: 1rem;
+  text-decoration: underline;
+}
+.htmllist:hover{
+  text-decoration: underline;
+  color:rgb(117, 117, 239);
+}
+.cssicon {
+  display: flex;
+}
+.csslist {
+  padding-left: 1rem;
+
+}
+.csslist:hover{
+  text-decoration: underline;
+  color:rgb(117, 117, 239);
+}
+.angularicon {
+  display: flex;
+}
+.angularlist {
+  padding-left: 1rem;
+}
+.angularlist:hover{
+  text-decoration: underline;
+  color:rgb(117, 117, 239);
+}
+
+.reacticon {
+  display: flex;
+}
+.reactlist {
+  padding-left: 1rem;
+  text-decoration: underline;
+}
+.reactlist:hover{
+  text-decoration: underline;
+  color:rgb(117, 117, 239);
+}

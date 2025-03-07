@@ -1,0 +1,70 @@
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: red
+}
+.card {
+    width: 250px;
+    height:100px;
+    border: 1px solid #c0c5ce;
+    border-radius: 5px;
+    background: #c0c5ce;
+    margin-bottom:10px;
+    padding:8px;
+}
+.card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    color: #fff
+}
+
+.card .card-details .cardnumber {
+    
+    font-weight: 600;
+    font-size: 24px;
+    margin: auto;
+    color: #fff;
+}
+.card .card-details .user {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    color: #531cdd;
+}
+.card .card-details .user .name {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.card .card-details .user .expiry {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+}
+.card .card-details .user .expiry .valid{
+    font-size: 8px;
+    width:20px;
+    font-weight: 200;
+    font-style: italic;
+    display: block;
+}
+.container {
+    margin:auto
+}
+ .blue .card{
+    background-color: #f8f8f8
+ }
+ .red .card{
+    background-color: #0a0c10
+ }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
