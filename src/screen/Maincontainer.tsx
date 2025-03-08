@@ -20,7 +20,7 @@ export default function Maincontainer() {
           <Routes>
             <Route path="/layout/:name" element={<Blankpage />} />
             <Route path="/profile/:child/" element={<Blankpage />} />
-            {/* anngularROutings */}
+            {/* anngularRoutings */}
             <Route path="Angular/Components" element={<Components />} />
             <Route path="Angular/Services" element={<Services />} />
             <Route path="Angular/Directives" element={<Directives />} />

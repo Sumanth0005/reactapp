@@ -12,6 +12,7 @@ export default function Layout() {
  const getAppName = (value: string) => {
    setAppName(value); // Update the state with the received value
  };
+ 
 
 
   return (

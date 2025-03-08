@@ -94,7 +94,7 @@ body {
 }
 
 .sidebar {
-  overflow: scroll;
+  /* overflow: scroll; */
   width: 230px;
   height: calc(100dvh - 100px);
   background: #e0e0e0;

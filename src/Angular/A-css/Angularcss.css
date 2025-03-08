@@ -67,7 +67,10 @@
 }
 .nodelist {
   padding-left: 1rem;
+}
+.nodelist:hover {
   text-decoration: underline;
+  color: rgb(117, 117, 239);
 }
 
 .htmlicon {
@@ -75,22 +78,20 @@
 }
 .htmllist {
   padding-left: 1rem;
-  text-decoration: underline;
 }
-.htmllist:hover{
+.htmllist:hover {
   text-decoration: underline;
-  color:rgb(117, 117, 239);
+  color: rgb(117, 117, 239);
 }
 .cssicon {
   display: flex;
 }
 .csslist {
   padding-left: 1rem;
-
 }
-.csslist:hover{
+.csslist:hover {
   text-decoration: underline;
-  color:rgb(117, 117, 239);
+  color: rgb(117, 117, 239);
 }
 .angularicon {
   display: flex;
@@ -98,9 +99,9 @@
 .angularlist {
   padding-left: 1rem;
 }
-.angularlist:hover{
+.angularlist:hover {
   text-decoration: underline;
-  color:rgb(117, 117, 239);
+  color: rgb(117, 117, 239);
 }
 
 .reacticon {
@@ -108,9 +109,8 @@
 }
 .reactlist {
   padding-left: 1rem;
-  text-decoration: underline;
 }
-.reactlist:hover{
+.reactlist:hover {
   text-decoration: underline;
-  color:rgb(117, 117, 239);
+  color: rgb(117, 117, 239);
 }
