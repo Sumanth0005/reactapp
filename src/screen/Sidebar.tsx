@@ -19,7 +19,7 @@ const menuItems = {
     "HTTP Client",
     "Lifecycle Hooks",
   ],
-  React: ["Introduction", "Components", "Hooks"],
+  // React: ["Introduction", "Components", "Hooks",""],
   NodeJs: [
     "Introduction",
     "Modules",
@@ -143,6 +143,25 @@ export default function Sidebar({ appName }: { appName: string }) {
               <li>
                 <Link to="/react/hooks">React Hooks</Link>
               </li>
+              <h1>Users</h1>
+             <ul> <li > 
+                <Link to="/react/list">List</Link>
+              </li>
+              <li>
+                <Link to="/react/search">User Search</Link>
+              </li>
+              <li>
+                <Link to="/react/sort">User Sort</Link>
+              </li>
+              <li>
+                <Link to="/react/add-user">Add User</Link>
+              </li>
+              <li>
+                <Link to="/react/update-user">Update User</Link>
+              </li>
+              <li>
+                <Link to="/react/delete-user">Delete User</Link>
+              </li></ul>
             </ul>
           </div>
         );

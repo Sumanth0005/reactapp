@@ -1,23 +1,18 @@
-import "./Angular/A-css/Angularcss.css"
+import "./Angular/A-css/Angularcss.css";
+import "./React/R-css/R-css.css";
 import "./App.css";
 import "./index.css";
 import Layout from "./screen/Layout";
-// import { BrowserRouter as Router } from "react-router-dom";
-// import Layout from "./screen/Layout";
-// import Blankpage from "./screen/Blankpage";
+import { ThemeProvider } from "./Theme/ThemeContext"; // Ensure ThemeProvider is imported
 
 function App() {
-  
-  return(
-  <div>
-    {/* <Router> */}
-    <Layout/>
-    {/* </Router> */}
-  </div>
-    
+  return (
+    <ThemeProvider>
+      <div>
+        <Layout />
+      </div>
+    </ThemeProvider>
   );
-
- 
 }
 
 export default App;

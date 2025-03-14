@@ -99,18 +99,9 @@
 .angularlist {
   padding-left: 1rem;
 }
-.angularlist:hover {
+.angularlist li:hover {
   text-decoration: underline;
   color: rgb(117, 117, 239);
+  /* background-color: gray; */
 }
 
-.reacticon {
-  display: flex;
-}
-.reactlist {
-  padding-left: 1rem;
-}
-.reactlist:hover {
-  text-decoration: underline;
-  color: rgb(117, 117, 239);
-}

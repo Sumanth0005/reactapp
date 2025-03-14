@@ -1,0 +1,11 @@
+.reacticon {
+    display: flex;
+  }
+  .reactlist {
+    padding-left: 1rem;
+  }
+.reactlist li:hover {
+    text-decoration: underline;
+    color: rgb(117, 117, 239);
+  }
+  

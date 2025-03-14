@@ -1,3 +1,5 @@
+import ThemeSwitcher from '../Theme/ThemeSwitcher';
+
 export default function Header({
   sendData,
 }: {
@@ -15,24 +17,16 @@ export default function Header({
           className="search-bar"
           onChange={(e) => sendData(e.target.value)}
         />
-        <label className="animate" onClick={() => sendData("Angular")}>
-          Angular
-        </label>
-        <label className="animate" onClick={() => sendData("React")}>
-          React
-        </label>
-        <label className="animate" onClick={() => sendData("Html")}>
-          HTML
-        </label>
-        <label className="animate" onClick={() => sendData("Css")}>
-          CSS
-        </label>
-        <label className="animate" onClick={() => sendData("NodeJs")}>
-          Node Js
-        </label>
+        {["Angular", "React", "HTML", "CSS", "NodeJs"].map((tech) => (
+          <button key={tech} className="animate" onClick={() => sendData(tech)}>
+            {tech}
+          </button>
+        ))}
       </div>
+     
       <div className="image">
-        <img className="img-circle" src="/tl.svg" alt="logo" />
+      <div className='theming'><ThemeSwitcher /></div>
+        <img className="img-circle" src="/pic.jpg" alt="logo" />
       </div>
     </div>
   );
